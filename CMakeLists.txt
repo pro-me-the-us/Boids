@@ -8,4 +8,6 @@ project(Boids)
 add_executable(
 		Boids
 		src/main.cpp
+		src/boid.cpp
+		src/flock.cpp
 )

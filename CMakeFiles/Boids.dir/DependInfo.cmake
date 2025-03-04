@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/pro-me-the-us/Projects/Boids/src/boid.cpp" "CMakeFiles/Boids.dir/src/boid.cpp.o" "gcc" "CMakeFiles/Boids.dir/src/boid.cpp.o.d"
+  "/home/pro-me-the-us/Projects/Boids/src/flock.cpp" "CMakeFiles/Boids.dir/src/flock.cpp.o" "gcc" "CMakeFiles/Boids.dir/src/flock.cpp.o.d"
   "/home/pro-me-the-us/Projects/Boids/src/main.cpp" "CMakeFiles/Boids.dir/src/main.cpp.o" "gcc" "CMakeFiles/Boids.dir/src/main.cpp.o.d"
   )
 

@@ -129,6 +129,54 @@ Boids/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Boids.dir/build.make CMakeFiles/Boids.dir/build
 .PHONY : Boids/fast
 
+src/boid.o: src/boid.cpp.o
+.PHONY : src/boid.o
+
+# target to build an object file
+src/boid.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Boids.dir/build.make CMakeFiles/Boids.dir/src/boid.cpp.o
+.PHONY : src/boid.cpp.o
+
+src/boid.i: src/boid.cpp.i
+.PHONY : src/boid.i
+
+# target to preprocess a source file
+src/boid.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Boids.dir/build.make CMakeFiles/Boids.dir/src/boid.cpp.i
+.PHONY : src/boid.cpp.i
+
+src/boid.s: src/boid.cpp.s
+.PHONY : src/boid.s
+
+# target to generate assembly for a file
+src/boid.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Boids.dir/build.make CMakeFiles/Boids.dir/src/boid.cpp.s
+.PHONY : src/boid.cpp.s
+
+src/flock.o: src/flock.cpp.o
+.PHONY : src/flock.o
+
+# target to build an object file
+src/flock.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Boids.dir/build.make CMakeFiles/Boids.dir/src/flock.cpp.o
+.PHONY : src/flock.cpp.o
+
+src/flock.i: src/flock.cpp.i
+.PHONY : src/flock.i
+
+# target to preprocess a source file
+src/flock.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Boids.dir/build.make CMakeFiles/Boids.dir/src/flock.cpp.i
+.PHONY : src/flock.cpp.i
+
+src/flock.s: src/flock.cpp.s
+.PHONY : src/flock.s
+
+# target to generate assembly for a file
+src/flock.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Boids.dir/build.make CMakeFiles/Boids.dir/src/flock.cpp.s
+.PHONY : src/flock.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -162,6 +210,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Boids"
+	@echo "... src/boid.o"
+	@echo "... src/boid.i"
+	@echo "... src/boid.s"
+	@echo "... src/flock.o"
+	@echo "... src/flock.i"
+	@echo "... src/flock.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

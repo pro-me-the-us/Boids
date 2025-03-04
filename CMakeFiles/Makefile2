@@ -81,12 +81,12 @@ clean: CMakeFiles/Boids.dir/clean
 CMakeFiles/Boids.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Boids.dir/build.make CMakeFiles/Boids.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Boids.dir/build.make CMakeFiles/Boids.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/pro-me-the-us/Projects/Boids/CMakeFiles --progress-num=1,2 "Built target Boids"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/pro-me-the-us/Projects/Boids/CMakeFiles --progress-num=1,2,3,4 "Built target Boids"
 .PHONY : CMakeFiles/Boids.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Boids.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pro-me-the-us/Projects/Boids/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pro-me-the-us/Projects/Boids/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Boids.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pro-me-the-us/Projects/Boids/CMakeFiles 0
 .PHONY : CMakeFiles/Boids.dir/rule
