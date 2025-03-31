@@ -1,0 +1,14 @@
+set terminal png
+set output "images/image0999.png"
+set title 'BOIDS0999'
+unset xlabel 
+unset ylabel
+unset border
+set grid
+set xtics scale 0
+set ytics scale 0
+set xrange [0:200]
+set yrange [0:200]
+set datafile separator ","
+unset key
+plot 'data.csv' using 1:2 with points pt 7 lc rgb "purple"

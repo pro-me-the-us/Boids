@@ -1,17 +1,14 @@
 #ifndef _BOID_HPP
 #define _BOID_HPP
 
-#define MAX_SPEED 6 //maximum velocity a boid can attain
-//#define MIN_SPEED 3 //minimum velocity of a boid
-#define PROTECTED_RANGE 0.5 //inner radius 
-#define VISUAL_RANGE 2 //local flock radius 
-
 class Boid{
 	private :
-		int x; 
-		int y;
-		int vX;
-		int vY;
+		float x; 
+		float y;
+		float vX;
+		float vY;
+		float aX;
+		float aY;
 	public :	
 		Boid();
 		void updatePosition();
@@ -19,6 +16,17 @@ class Boid{
 		void Cohesion();
 		void Separation();
 		void printBoid();
+		float getX();
+		float getY();
+		void setvX(float vX);
+		void setvY(float vY);
+		void setaX(float aX);
+		void setaY(float aY);
+		float getVelX();
+		float getVelY();
+		float getaccX();
+		float getaccY();
+		float Distance(int x1,int x2,int y1,int y2);
 };
 
 #endif
